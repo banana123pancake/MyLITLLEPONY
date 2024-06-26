@@ -1,0 +1,67 @@
+main {
+  grid-area: header;
+  color: rgb(0, 0, 0);
+  background-color: rgb(190, 115, 219);
+  text-align: center;
+  }
+  .icon {
+    margin-top: 40px;
+  width: 10%;
+  }
+  .item-a {
+    grid-area: header;
+    color: rgb(0, 0, 0);
+    background-color: #ef4f91ff;
+    text-align: center;
+    }
+    .item-b {
+      grid-area: main;
+    color: rgb(255, 255, 255);
+    background-color: #4d1b7bff;
+    text-align: center;
+    }
+    .item-c {
+      grid-area: sidebar;
+    color: rgb(255, 255, 255);
+    background-color: #673888ff;
+    text-align: center;
+    }
+    .item-d {
+      grid-area: footer;
+    color: rgb(212, 197, 197);
+    background-color: #363b74ff;
+    text-align: center;
+    height: 200px;
+    padding-top: 35px;
+    }
+    .item-e {
+      grid-area: image;
+    background-color: rgb(178, 111, 209);
+    text-align: center;
+    padding: 25px;
+    border-style:dashed;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 25% 25% 25% 25%;
+      grid-template-rows: auto;
+      grid-template-areas: 
+        "header header header header"
+        "main main image sidebar"
+        "footer footer footer footer";
+    }
+
+nav {
+    text-align: center;
+    display: block;
+    unicode-bidi: isolate;
+    padding: 20px;
+    background-color: rgb(178, 111, 209);
+}
+nav a {
+    height: 40px;
+    background-color: rgb(58, 58, 97);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
