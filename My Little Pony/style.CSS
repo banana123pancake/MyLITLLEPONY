@@ -1,9 +1,4 @@
-main {
-  grid-area: header;
-  color: rgb(0, 0, 0);
-  background-color: rgb(190, 115, 219);
-  text-align: center;
-  }
+
   .icon {
     margin-top: 40px;
   width: 10%;
@@ -64,4 +59,44 @@ nav a {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+.pp_main{
+  grid-area: header;
+  color: rgb(0, 0, 0);
+  background-color: #f9b8d2ff;
+  text-align: center;
+}
+.pp_a{
+  grid-area: header;
+    color: rgb(0, 0, 0);
+  background-color: #86d8f7ff;
+  text-align: center;
+}
+.pp_b {
+  grid-area: main;
+color: rgb(255, 255, 255);
+background-color: #f0438cff;
+text-align: center;
+}
+.pp_c {
+  grid-area: sidebar;
+color: rgb(255, 255, 255);
+background-color: #f0438cff;
+text-align: center;
+}
+.pp_d {
+  grid-area: footer;
+color: rgb(212, 197, 197);
+background-color: #fefbb1ff;
+text-align: center;
+height: 200px;
+padding-top: 35px;
+}
+.pp_e {
+  grid-area: image;
+background-color: rgb(252, 0, 105);
+text-align: center;
+padding: 25px;
+border-style:dashed;
 }
