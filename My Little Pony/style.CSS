@@ -8,25 +8,28 @@ main{
     margin-top: 40px;
   width: 10%;
   }
-  .item-a {
+  .pp_main {
+    font-size: larger;
+  }
+  .main-a {
     grid-area: header;
     color: rgb(0, 0, 0);
     background-color: #ef4f91ff;
     text-align: center;
     }
-    .item-b {
+    .main-b {
       grid-area: main;
     color: rgb(255, 255, 255);
     background-color: #4d1b7bff;
     text-align: center;
     }
-    .item-c {
+    .main-c {
       grid-area: sidebar;
     color: rgb(255, 255, 255);
     background-color: #673888ff;
     text-align: center;
     }
-    .item-d {
+    .main-d {
       grid-area: footer;
     color: rgb(212, 197, 197);
     background-color: #363b74ff;
@@ -34,7 +37,7 @@ main{
     height: 200px;
     padding-top: 35px;
     }
-    .item-e {
+    .main-e {
       grid-area: image;
     background-color: rgb(178, 111, 209);
     text-align: center;
@@ -57,6 +60,12 @@ nav {
     unicode-bidi: isolate;
     padding: 20px;
     background-color: rgb(178, 111, 209);
+    font-size: medium;
+}
+
+  /* change the link colour to white (black) on hover */
+nav a:hover {
+  background-color: white;
 }
 nav a {
     height: 40px;
@@ -66,25 +75,25 @@ nav a {
     padding: 10px;
 }
 
-.pp_a{
+.pinkypie_a{
   grid-area: header;
     color: rgb(0, 0, 0);
   background-color: #86d8f7ff;
   text-align: center;
 }
-.pp_b {
+.pinkypie_b {
   grid-area: main;
 color: rgb(0, 0, 0);
 background-color: #f0438cff;
 text-align: center;
 }
-.pp_c {
+.pinkypie_c {
   grid-area: sidebar;
 color: rgb(0, 0, 0);
 background-color: #f0438cff;
 text-align: center;
 }
-.pp_d {
+.pinkypie_d {
   grid-area: footer;
 color: rgb(0, 0, 0);
 background-color: #fefbb1ff;
@@ -92,7 +101,7 @@ text-align: center;
 height: 200px;
 padding-top: 35px;
 }
-.pp_e {
+.pinkypie_e {
   grid-area: image;
 background-color: rgb(233, 108, 160);
 text-align: center;
@@ -101,25 +110,25 @@ border-style:dashed;
 }
 
 
-.fs_a {
+.flatershy_a {
   grid-area: header;
   color: rgb(0, 0, 0);
 background-color: #fdf6afff;
 text-align: center;
 }
-.fs_b {
+.flatershy_b {
   grid-area: main;
   color: rgb(0, 0, 0);
   background-color: #f3b6cfff;
   text-align: center;
 }
-.fs_c {
+.flatershy_c {
   grid-area: sidebar;
   color: rgb(0, 0, 0);
   background-color: #6ec9c7ff;
   text-align: center;
 }
-.fs_d {
+.flatershy_d {
   grid-area: footer;
   color: rgb(0, 0, 0);
   background-color: #fdf6afff;
@@ -127,7 +136,7 @@ text-align: center;
   height: 200px;
   padding-top: 35px;
 }
-.fs_e {
+.flatershy_e {
   grid-area: image;
   background-color: #01a29dff;
   text-align: center;
@@ -137,25 +146,25 @@ text-align: center;
 
 
 
-.rd_a {
+.rainbowdash_a {
   grid-area: header;
   color: rgb(0, 0, 0);
 background-color: #fdf498ff;
 text-align: center;
 }
-.rd_b {
+.rainbowdash_b {
   grid-area: main;
   color: rgb(0, 0, 0);
   background-color: #f37736ff;
   text-align: center;
 }
-.rd_c {
+.rainbowdash_c {
   grid-area: sidebar;
   color: rgb(0, 0, 0);
   background-color: #7bc043ff;
   text-align: center;
 }
-.rd_d {
+.rainbowdash_d {
   grid-area: footer;
   color: rgb(0, 0, 0);
   background-color: #0392cfff;
@@ -163,7 +172,7 @@ text-align: center;
   height: 200px;
   padding-top: 35px;
 }
-.rd_e {
+.rainbowdash_e {
   grid-area: image;
   background-color: #ee4035ff;
   text-align: center;
@@ -173,25 +182,25 @@ text-align: center;
 
 
 
-.aj_a {
+.applejack_a {
   grid-area: header;
   color: rgb(0, 0, 0);
 background-color: #faba62ff;
 text-align: center;
 }
-.aj_b {
+.applejack_b {
   grid-area: main;
   color: rgb(0, 0, 0);
   background-color: #faf5abff;
   text-align: center;
 }
-.aj_c {
+.applejack_c {
   grid-area: sidebar;
   color: rgb(0, 0, 0);
   background-color: #78d863ff;
   text-align: center;
 }
-.aj_d {
+.applejack_d {
   grid-area: footer;
   color: rgb(0, 0, 0,);
   background-color: #ca9a56ff;
@@ -199,7 +208,7 @@ text-align: center;
   height: 200px;
   padding-top: 35px;
 }
-.aj_e {
+.applejack_e {
   grid-area: image;
   background-color: #ec3f41ff;
   text-align: center;
@@ -208,25 +217,25 @@ text-align: center;
 }
 
 
-.r_a {
+.rarity_a {
   grid-area: header;
   color: rgb(0, 0, 0);
 background-color: #e4e7ecff;
 text-align: center;
 }
-.r_b {
+.rarity_b {
   grid-area: main;
   color: rgb(0, 0, 0);
   background-color: #5fbbe7ff;
   text-align: center;
 }
-.r_c {
+.rarity_c {
   grid-area: sidebar;
   color: rgb(0, 0, 0);
   background-color: #aadaf0ff;
   text-align: center;
 }
-.r_d {
+.rarity_d {
   grid-area: footer;
   color: rgb(0, 0, 0);
   background-color: #61377aff;
@@ -234,7 +243,7 @@ text-align: center;
   height: 200px;
   padding-top: 35px;
 }
-.r_e {
+.rarity_e {
   grid-area: image;
   background-color: #594192ff;
   text-align: center;
